@@ -125,6 +125,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/athene/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/athene/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/athene/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
+    vendor/motorola/athene/proprietary/lib/libstagefright_soft_aacenc.so:system/lib/libstagefright_soft_aacenc.so \
     vendor/motorola/athene/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/athene/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
     vendor/motorola/athene/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
