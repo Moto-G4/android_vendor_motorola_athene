@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/athene/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/athene/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/athene/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/athene/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/athene/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -91,8 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/athene/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/athene/proprietary/etc/motorola/ecc_db/qcril_mot_ecc_common.db:system/etc/motorola/ecc_db/qcril_mot_ecc_common.db \
-    vendor/motorola/athene/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/athene/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/athene/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/motorola/athene/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
@@ -135,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/athene/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/athene/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/athene/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/athene/proprietary/lib/libsensorhubservice_jni.so:system/lib/libsensorhubservice_jni.so \
     vendor/motorola/athene/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
@@ -779,9 +775,3 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/athene/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/athene/proprietary/vendor/qcril.db:system/vendor/qcril.db
-
-PRODUCT_PACKAGES += \
-    TimeService \
-    qcrilmsgtunnel \
-    qcnvitems \
-    qcrilhook
